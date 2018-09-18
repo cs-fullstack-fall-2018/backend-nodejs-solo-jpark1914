@@ -1,0 +1,27 @@
+{
+  "name": "myServer.js",
+  "version": "1.0.0",
+  "description": "For this assignment you will create a full node.js backend application from scratch.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node myServer.js",
+    "script": "nodemon myServer.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cs-fullstack-fall-2018/backend-nodejs-solo-jpark1914.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cs-fullstack-fall-2018/backend-nodejs-solo-jpark1914/issues"
+  },
+  "homepage": "https://github.com/cs-fullstack-fall-2018/backend-nodejs-solo-jpark1914#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.15",
+    "nodemon": "^1.18.4"
+  }
+}
